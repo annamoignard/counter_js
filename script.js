@@ -3,6 +3,7 @@ let counterMinus = document.querySelector('.minus-one');
 let counterPlus = document.querySelector('.plus-one');
 let count = 0;
 
+updateDisplay();
 // clicks.addEventListener("click", () => {
 //   clicks += 1; 
 //   document.querySelector("clicks").innerHTML = clicks;
@@ -10,10 +11,14 @@ let count = 0;
 
 counterMinus.addEventListener("click",() => {
   count -= 1;
-  counterDisplay.innerHTML = count;
+  updateDisplay();
 });
 
 counterPlus.addEventListener("click",() => {
   count += 1;
-  counterDisplay.innerHTML = count;
+  updateDisplay();
 });
+
+function updateDisplay(){
+  counterDisplay.innerHTML = count;
+};

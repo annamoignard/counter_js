@@ -1,0 +1,21 @@
+header {
+  color: darkolivegreen; 
+  font-size: 32px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: 1px solid darkorchid; 
+  width: 50px; 
+  display: flex;
+  margin: 15px;
+}
