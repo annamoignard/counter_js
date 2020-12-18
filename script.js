@@ -3,6 +3,7 @@ let counterMinus = document.querySelector('.minus-one');
 let counterPlus = document.querySelector('.plus-one');
 let count = 0;
 
+
 updateDisplay();
 
 counterMinus.addEventListener("click", () => {

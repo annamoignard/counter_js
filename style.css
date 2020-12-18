@@ -1,12 +1,14 @@
 header {
-  color: darkolivegreen; 
-  font-size: 32px;
+  color: pink; 
+  font-size: 62px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .button-container {
@@ -15,7 +17,24 @@ h1 {
 }
 button {
   border: 1px solid darkorchid; 
-  width: 50px; 
+  width: 60px; 
+  height: 40px; 
   display: flex;
   margin: 15px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  border-radius: 10%;
+}
+
+button:hover{
+  background-color: LavenderBlush;
+  border: 1px solid pink; 
+}
+
+button:active {
+  border: 1px solid pink;
+}
+
+button:visited {
+  border: 1px solid pink;
 }
